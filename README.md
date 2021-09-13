@@ -21,7 +21,7 @@ $ composer require guidepilot/php-lottie
 <?php
 use GuidePilot\PhpLottie\LottieAnimation;
 
-$lottieAnimation = new LottieAnimation(readfile('animation.json'));
+$lottieAnimation = new LottieAnimation(file_get_contents('animation.json'));
 
 echo "Size: {$lottieAnimation->getWidth()}x{$lottieAnimation->getHeight()}".PHP_EOL;
 echo "FrameRate: {$lottieAnimation->getFrameRate()}".PHP_EOL;
