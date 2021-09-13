@@ -2,8 +2,12 @@
     "name": "guidepilot/php-lottie",
     "description": "A library to extract metadata from Lottie animation and dotLottie files",
     "keywords": ["lottie", "dotlottie", "animation", "metadata"],
+    "homepage": "https://guidepilot.de",
     "type": "library",
-    "license": "proprietary",
+    "license": "MIT",
+    "support": {
+        "source": "https://github.com/guidepilot/php-lottie"
+    },
     "autoload": {
         "psr-4": {
             "GuidePilot\\PhpLottie\\": "src/"
@@ -11,8 +15,7 @@
     },
     "authors": [
         {
-            "name": "Daniel Krüger",
-            "email": "dk@micromovie.com"
+            "name": "Daniel Krüger"
         },
         {
             "name": "GuidePilot Team",
