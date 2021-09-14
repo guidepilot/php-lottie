@@ -1,10 +1,25 @@
 <?php
+/**
+ * Copyright (c) GuidePilot. (https://guidepilot.de)
+ *
+ * Licensed under The MIT License
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @copyright     Copyright (c) GuidePilot. (https://guidepilot.de)
+ * @link          https://guidepilot.de GuidePilot
+ * @license       http://www.opensource.org/licenses/mit-license.php MIT License
+ */
+
 namespace GuidePilot\PhpLottie;
 
 use GuidePilot\PhpLottie\Exceptions\LottieFileInvalidException;
 use GuidePilot\PhpLottie\Exceptions\UnableToReadFileException;
 use ZipArchive;
 
+/**
+ * An object that represents a single dotLottie file which can contain multiple animations.
+ *
+ */
 class DotLottieFile {
 
     protected string $_file;

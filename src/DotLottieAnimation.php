@@ -1,7 +1,21 @@
 <?php
+/**
+ * Copyright (c) GuidePilot. (https://guidepilot.de)
+ *
+ * Licensed under The MIT License
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @copyright     Copyright (c) GuidePilot. (https://guidepilot.de)
+ * @link          https://guidepilot.de GuidePilot
+ * @license       http://www.opensource.org/licenses/mit-license.php MIT License
+ */
 
 namespace GuidePilot\PhpLottie;
 
+/**
+ * An object that represents a single lottie animation that has been extracted from a dotLottie file.
+ *
+ */
 class DotLottieAnimation extends LottieAnimation {
 
     protected ?string $_id = null;
